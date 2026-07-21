@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.36.0](https://github.com/opentdf/platform/compare/otdfctl/v0.35.0...otdfctl/v0.36.0) (2026-07-21)
+
+
+### Features
+
+* **cli:** expose handler hook for injecting SDK options ([#3755](https://github.com/opentdf/platform/issues/3755)) ([76305b0](https://github.com/opentdf/platform/commit/76305b04af3f1129dbe1ed337ef731de54be0457))
+
 ## [0.35.0](https://github.com/opentdf/platform/compare/otdfctl/v0.34.0...otdfctl/v0.35.0) (2026-07-07)
 
 
