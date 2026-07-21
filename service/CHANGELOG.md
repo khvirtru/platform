@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.21.0](https://github.com/opentdf/platform/compare/service/v0.20.0...service/v0.21.0) (2026-07-21)
+
+
+### Features
+
+* **policy:** add entitleable namespace field and narrow-read-API doc corrections ([#3727](https://github.com/opentdf/platform/issues/3727)) ([0fc2f01](https://github.com/opentdf/platform/commit/0fc2f01fbb0d75b04d2a5dcb94e5acdea9f62b6f))
+* **policy:** Add name and manager lookup ([#3753](https://github.com/opentdf/platform/issues/3753)) ([bfbc65d](https://github.com/opentdf/platform/commit/bfbc65d6f56a7d28144379f535bd82ce61e62bdd))
+* **policy:** Add UnsafeUpdateKey rpc. ([#3728](https://github.com/opentdf/platform/issues/3728)) ([c89b193](https://github.com/opentdf/platform/commit/c89b1933e3931bc1984711f2268c8adedd786db4))
+* **policy:** create subject mappings with attribute values ([#3741](https://github.com/opentdf/platform/issues/3741)) ([718320b](https://github.com/opentdf/platform/commit/718320b2bbe1a03041ed70bb3b20eb3c30cf64fa))
+* **policy:** deprecate GetAttributeValuesByFqns in favor of narrow read APIs ([#3745](https://github.com/opentdf/platform/issues/3745)) ([baba709](https://github.com/opentdf/platform/commit/baba70913cfe615448ab05b465ecdaf037791889))
+* **policy:** dynamic attribute value entitlement mappings ([#3568](https://github.com/opentdf/platform/issues/3568)) ([21e95e0](https://github.com/opentdf/platform/commit/21e95e04c9f5903dc4c437d12ea790bbbf20bbb1))
+* **policy:** populate entitleable definition namespace ([#3737](https://github.com/opentdf/platform/issues/3737)) ([3f32839](https://github.com/opentdf/platform/commit/3f32839689e257338babb91903298b3b0256385c))
+
+
+### Bug Fixes
+
+* **authz:** use standard Keycloak token exchange ([#3754](https://github.com/opentdf/platform/issues/3754)) ([de9ae0d](https://github.com/opentdf/platform/commit/de9ae0dde552267470b44c4e09854034cbc70e84))
+* **core:** Pass the platform logger to the authz role provider factory ([#3732](https://github.com/opentdf/platform/issues/3732)) ([9c32554](https://github.com/opentdf/platform/commit/9c32554958aef3572728c0465a047c7779a06d95))
+
 ## [0.20.0](https://github.com/opentdf/platform/compare/service/v0.19.0...service/v0.20.0) (2026-07-07)
 
 
